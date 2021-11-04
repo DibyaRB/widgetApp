@@ -52,6 +52,9 @@ const Dropdown= ({options, selected, onSelectedChange}) =>{
                 </div>
               </div>
           </div>
+          <font color={`${selected.value}`}>  
+        Current Selected Font Color is {`${selected.value}`}
+        </font>
         </div>
     );
 };
